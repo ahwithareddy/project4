@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPDATE</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="update-section">
+        <form action="/update_form" method="post">
+            <input type="number" name="id" placeholder="ID">
+            <select name="field">
+                <option value="name">NAME</option>
+                <option value="email">Email</option>
+                <option value="phone">PHONE</option>
+                <option value="percentage">INTER PERCENTAGE</option>
+                <option value="rank">EAMCET RANK</option>
+                <option value="course">COURSE INTERESTED</option>
+                <option value="address">ADDRESS</option>
+            </select>
+            <input type ="text" name="new_value" placeholder="NEW DATA">
+            <input type ="submit" value="UPDATE">
+        </form>
+    </div>
+</body>
+</html>
